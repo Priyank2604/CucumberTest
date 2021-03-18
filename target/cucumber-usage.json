@@ -1,0 +1,108 @@
+[
+  {
+    "source": "^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User login into application with username \"pk\" and password \"1234\"",
+        "aggregatedDurations": {
+          "average": 0.0093739,
+          "median": 0.0093739
+        },
+        "durations": [
+          {
+            "duration": 0.0093739,
+            "location": "Login.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "User login into application with username \"rk\" and password \"4321\"",
+        "aggregatedDurations": {
+          "average": 0.0022122,
+          "median": 0.0022122
+        },
+        "durations": [
+          {
+            "duration": 0.0022122,
+            "location": "Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Home page is populated$",
+    "steps": [
+      {
+        "name": "Home page is populated",
+        "aggregatedDurations": {
+          "average": 0.0005495,
+          "median": 0.0005495
+        },
+        "durations": [
+          {
+            "duration": 0.0008768,
+            "location": "Login.feature:6"
+          },
+          {
+            "duration": 0.0002222,
+            "location": "Login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on NetBanking landing page$",
+    "steps": [
+      {
+        "name": "User is on NetBanking landing page",
+        "aggregatedDurations": {
+          "average": 0.1697411,
+          "median": 0.1697411
+        },
+        "durations": [
+          {
+            "duration": 0.3386643,
+            "location": "Login.feature:4"
+          },
+          {
+            "duration": 0.0008179,
+            "location": "Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Cards are displayed \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Cards are displayed \"true\"",
+        "aggregatedDurations": {
+          "average": 0.0008577,
+          "median": 0.0008577
+        },
+        "durations": [
+          {
+            "duration": 0.0008577,
+            "location": "Login.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "Cards are displayed \"false\"",
+        "aggregatedDurations": {
+          "average": 0.0024363,
+          "median": 0.0024363
+        },
+        "durations": [
+          {
+            "duration": 0.0024363,
+            "location": "Login.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

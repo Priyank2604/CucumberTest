@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 338664300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.userIsOnNetBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9373900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login into application with username \"pk\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pk",
+                  "offset": 43
+                },
+                {
+                  "val": "1234",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 876800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.homePageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 857700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Cards are displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.userIsOnNetBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2212200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User login into application with username \"rk\" and password \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rk",
+                  "offset": 43
+                },
+                {
+                  "val": "4321",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.homePageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2436300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Cards are displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_are_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

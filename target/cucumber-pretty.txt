@@ -1,0 +1,13 @@
+Feature: Application Login
+
+  Scenario: Home page default login                                         [90m# Login.feature:3[0m
+    [32mGiven [0m[32mUser is on NetBanking landing page[0m                                [90m# stepDefination.userIsOnNetBankingLandingPage()[0m
+    [32mWhen [0m[32mUser login into application with username "[0m[32m[1mpk[0m[32m" and password "[0m[32m[1m1234[0m[32m"[0m [90m# stepDefination.user_login_into_application_with_username_and_password(String,String)[0m
+    [32mThen [0m[32mHome page is populated[0m                                             [90m# stepDefination.homePageIsPopulated()[0m
+    [32mAnd [0m[32mCards are displayed "[0m[32m[1mtrue[0m[32m"[0m                                          [90m# stepDefination.cards_are_displayed(String)[0m
+
+  Scenario: Home page default login                                         [90m# Login.feature:9[0m
+    [32mGiven [0m[32mUser is on NetBanking landing page[0m                                [90m# stepDefination.userIsOnNetBankingLandingPage()[0m
+    [32mWhen [0m[32mUser login into application with username "[0m[32m[1mrk[0m[32m" and password "[0m[32m[1m4321[0m[32m"[0m [90m# stepDefination.user_login_into_application_with_username_and_password(String,String)[0m
+    [32mThen [0m[32mHome page is populated[0m                                             [90m# stepDefination.homePageIsPopulated()[0m
+    [32mAnd [0m[32mCards are displayed "[0m[32m[1mfalse[0m[32m"[0m                                         [90m# stepDefination.cards_are_displayed(String)[0m
